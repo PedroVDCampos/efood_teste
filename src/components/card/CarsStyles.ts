@@ -8,8 +8,8 @@ export const CardContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 100%;
-  width: 100%;
+  height: 472px;
+  width: 398px;
   border: 1px solid ${theme.colors.primaryColor};
   background-color: ${theme.colors.secondaryColor};
   color: ${theme.colors.primaryColor};

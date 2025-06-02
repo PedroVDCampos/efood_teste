@@ -1,7 +1,12 @@
 import { styled } from 'styled-components'
 import { ButtonContainer } from '../../components/button/ButtonStyles'
 import Card from '../../components/card/Card'
-import { CardDescription, CardImage, CardPrice, CardTitle } from '../../components/card/CarsStyles'
+import {
+  CardDescription,
+  CardImage,
+  CardPrice,
+  CardTitle
+} from '../../components/card/CarsStyles'
 import { media } from '../../style/media'
 import { theme } from '../../style/theme'
 

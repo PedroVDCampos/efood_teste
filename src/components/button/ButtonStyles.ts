@@ -4,7 +4,8 @@ import { theme } from '../../style/theme'
 
 const baseButton = `
   padding: 5px;
-  width: 100%;
+  width: 82px;
+  height: 24px;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;

@@ -1,7 +1,17 @@
 import { FaStar } from 'react-icons/fa'
 import { getCountry } from '../../utils/countryUtils'
 import Tag from '../tags/Tag'
-import { CardContainer, CardContent, CardDescription, CardFooter, CardHeader, CardImage, CardPrice, CardStars, CardTitle } from './CarsStyles'
+import {
+  CardContainer,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardImage,
+  CardPrice,
+  CardStars,
+  CardTitle
+} from './CarsStyles'
 
 type CardProps = {
   foodId?: string
@@ -16,7 +26,19 @@ type CardProps = {
   children?: React.ReactNode
 }
 
-const Card = ({ foodId, restaurantId, image, title, description, stars, country, highlight, children, price, ...props }: CardProps) => {
+const Card = ({
+  foodId,
+  restaurantId,
+  image,
+  title,
+  description,
+  stars,
+  country,
+  highlight,
+  children,
+  price,
+  ...props
+}: CardProps) => {
   const id = restaurantId || foodId
   if (!id) {
     return <p>Id inválido</p>
